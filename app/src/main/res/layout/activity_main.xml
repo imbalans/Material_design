@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,5 +15,29 @@
         android:textColor="@color/colorBlack"
         android:layout_gravity="center_horizontal"
         tools:ignore="RtlHardcoded" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Пароль"
+        app:placeholderText="Введите пароль"
+        app:counterMaxLength="20"
+        app:counterEnabled="true"
+        app:endIconMode="password_toggle"
+        app:helperTextEnabled="true"
+        app:helperText="Не больше 20 символов"
+        app:helperTextTextColor="@color/colorBlack"
+        app:counterTextColor="@color/colorBlack"
+        app:hintTextAppearance="@style/InputLayout">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:theme="@style/EditText"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
