@@ -7,4 +7,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="InputLayout" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/color</item>
+    </style>
+
+    <style name="EditText">
+        <item name="colorControlNormal">@color/colorTheme1Red</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
 </resources>
