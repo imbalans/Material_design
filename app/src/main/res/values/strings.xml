@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Material_design</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Photos App</string>
+    <string name="nav_header_subtitle">GeekBrains</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Photos</string>
+    <string name="menu_theme">Themes</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>
