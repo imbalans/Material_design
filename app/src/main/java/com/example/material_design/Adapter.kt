@@ -27,7 +27,7 @@ class Adapter (var context: Context, var arraylist: ArrayList<PhotoChar>) : Recy
     }
 
     class ItemHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var icons: ImageView = itemView.findViewById(R.id.icons_image)
+        var icons: ImageView = itemView.findViewById(R.id.icons_image) // listener
         var title: TextView = itemView.findViewById(R.id.image_text_view)
 
     }
