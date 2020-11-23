@@ -7,6 +7,22 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.Red">
+        <item name="android:windowBackground">@color/colorRed</item>
+    </style>
+
+    <style name="AppTheme.Blue">
+        <item name="android:windowBackground">@color/colorBlue</item>
+    </style>
+
+    <style name="AppTheme.Yellow">
+        <item name="android:windowBackground">@color/colorYellow</item>
+    </style>
+
+    <style name="AppTheme.White">
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
