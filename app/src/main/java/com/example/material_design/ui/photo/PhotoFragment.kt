@@ -42,7 +42,7 @@ class PhotoFragment : Fragment() {
     ): View? {
         val rootview = inflater.inflate(R.layout.fragment_photo, container, false)
         recyclerView = rootview.findViewById(R.id.photo_recycler_view)
-        gridLayoutManager = GridLayoutManager(context, 3, LinearLayoutManager.VERTICAL, false)
+        gridLayoutManager = GridLayoutManager(context, 4, LinearLayoutManager.VERTICAL, false)
         recyclerView?.layoutManager = gridLayoutManager
         recyclerView?.setHasFixedSize(true)
         arrayList = setImage()
@@ -55,7 +55,6 @@ class PhotoFragment : Fragment() {
         fab.setOnClickListener {
             dispatchTakePictureIntent()
         }
-
 
         return rootview
     }
@@ -104,12 +103,12 @@ class PhotoFragment : Fragment() {
 
     private fun setImage(): ArrayList<PhotoChar> {
 
-        items.add(PhotoChar(R.drawable.photo1, "Photo1"))
-        items.add(PhotoChar(R.drawable.photo2, "Photo2"))
-        items.add(PhotoChar(R.drawable.photo3, "Photo3"))
-        items.add(PhotoChar(R.drawable.photo4, "Photo4"))
-        items.add(PhotoChar(R.drawable.photo5, "Photo5"))
-        items.add(PhotoChar(R.drawable.photo6, "Photo6"))
+        items.add(PhotoChar(R.drawable.photo1))
+        items.add(PhotoChar(R.drawable.photo2))
+        items.add(PhotoChar(R.drawable.photo3))
+        items.add(PhotoChar(R.drawable.photo4))
+        items.add(PhotoChar(R.drawable.photo5))
+        items.add(PhotoChar(R.drawable.photo6))
 
         return items
     }
